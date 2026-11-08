@@ -25,9 +25,16 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "shrubland": "2026-11-08 20:35:09 +0100",
+      "rocky_shrubland": "2026-11-08 20:19:36 +0100",
       "highland": "2026-11-07 17:42:37 +0100",
       "clover_patch": "2026-11-06 16:51:33 +0100",
-      "orchard": "2026-11-06 17:42:19 +0100"
+      "orchard": "2026-11-06 17:42:19 +0100",
+      "lavender_forest": "2026-11-08 19:39:26 +0100",
+      "spider_nest": "2026-11-08 19:49:52 +0100",
+      "redwood_forest": "2026-11-08 19:43:19 +0100",
+      "lavender_field": "2026-11-08 19:44:20 +0100",
+      "grassland": "2026-11-08 20:18:28 +0100"
     },
     "done": false
   },
@@ -116,7 +123,10 @@
       "minecraft:river": "2026-11-07 17:15:07 +0100",
       "minecraft:forest": "2026-11-06 18:18:27 +0100",
       "minecraft:ocean": "2026-11-07 19:15:31 +0100",
-      "minecraft:old_growth_birch_forest": "2026-11-06 17:37:06 +0100"
+      "minecraft:flower_forest": "2026-11-08 19:47:31 +0100",
+      "minecraft:old_growth_birch_forest": "2026-11-06 17:37:06 +0100",
+      "minecraft:meadow": "2026-11-08 19:41:02 +0100",
+      "minecraft:plains": "2026-11-08 19:40:10 +0100"
     },
     "done": false
   },
@@ -1553,51 +1563,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
-    "criteria": {
-      "has_gold_block": "2026-11-08 13:45:08 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_axe": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
   "tconstruct:recipes/building_blocks/smeltery/seared/seared_soul_glass": {
     "criteria": {
       "has_item": "2026-11-08 13:35:49 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_pickaxe": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
   "tconstruct:recipes/decorations/smeltery/seared/table": {
     "criteria": {
       "has_item": "2026-11-08 13:35:49 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
     },
     "done": true
   },
@@ -1613,127 +1587,15 @@
     },
     "done": true
   },
-  "tconstruct:recipes/misc/smeltery/red_sand_cast": {
-    "criteria": {
-      "has_casting": "2026-11-08 13:37:41 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:smeltery/cast_collector": {
-    "criteria": {
-      "ingot": "2026-11-08 13:45:45 +0100"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/gold_nugget": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_shovel": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/golden_apple": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:smeltery/melter": {
-    "criteria": {
-      "seared_fuel_tank": "2026-11-08 13:37:13 +0100",
-      "seared_basin": "2026-11-08 13:44:36 +0100",
-      "seared_table": "2026-11-08 13:37:51 +0100",
-      "seared_faucet": "2026-11-08 13:37:55 +0100",
-      "seared_melter": "2026-11-08 13:36:20 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_boots": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/misc/smeltery/sand_cast": {
-    "criteria": {
-      "has_casting": "2026-11-08 13:37:41 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_helmet": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:smeltery/gold_casting": {
-    "criteria": {
-      "crafted_cast": "2026-11-08 13:45:45 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pink_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/black_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
   "tconstruct:recipes/redstone/smeltery/seared/drain": {
     "criteria": {
       "has_item": "2026-11-08 13:35:49 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_chestplate": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
   "tconstruct:recipes/redstone/smeltery/seared/seared_casting_tank": {
     "criteria": {
       "has_item": "2026-11-08 13:35:49 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/decorations/common/gold_bars": {
-    "criteria": {
-      "has_ingot": "2026-11-08 13:43:46 +0100"
     },
     "done": true
   },
@@ -1749,60 +1611,6 @@
     },
     "done": true
   },
-  "tconstruct:recipes/decorations/common/gold_platform": {
-    "criteria": {
-      "has_gold": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glass_pane": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magenta_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/redstone/smeltery/scorched/duct": {
-    "criteria": {
-      "has_item": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2026-11-08 13:38:46 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/redstone/smeltery/seared/duct": {
-    "criteria": {
-      "has_item": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
   "tconstruct:recipes/decorations/smeltery/seared/melter": {
     "criteria": {
       "has_item": "2026-11-08 13:35:49 +0100"
@@ -1812,18 +1620,6 @@
   "tconstruct:recipes/decorations/smeltery/seared/lantern": {
     "criteria": {
       "has_item": "2026-11-08 13:35:49 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glass_bottle": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
     },
     "done": true
   },
@@ -1851,54 +1647,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cyan_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_sword": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_stained_glass": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gold_block": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/decorations/tables/cast_chest": {
-    "criteria": {
-      "has_item": "2026-11-08 13:45:45 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_hoe": {
-    "criteria": {
-      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/brewing/common/glass/vanilla/glass_bottle": {
-    "criteria": {
-      "has_glass": "2026-11-08 13:35:50 +0100"
-    },
-    "done": true
-  },
   "tconstruct:recipes/tools/tools/building/flint_and_brick": {
     "criteria": {
       "has_seared": "2026-11-08 13:35:49 +0100"
@@ -1923,9 +1671,410 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/brewing/common/glass/vanilla/glass_bottle": {
+    "criteria": {
+      "has_glass": "2026-11-08 13:35:50 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/melter": {
+    "criteria": {
+      "seared_fuel_tank": "2026-11-08 13:37:13 +0100",
+      "seared_basin": "2026-11-08 13:44:36 +0100",
+      "seared_table": "2026-11-08 13:37:51 +0100",
+      "seared_faucet": "2026-11-08 13:37:55 +0100",
+      "seared_melter": "2026-11-08 13:36:20 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/smeltery/red_sand_cast": {
+    "criteria": {
+      "has_casting": "2026-11-08 13:37:41 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/smeltery/sand_cast": {
+    "criteria": {
+      "has_casting": "2026-11-08 13:37:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-11-08 13:38:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/decorations/common/gold_bars": {
+    "criteria": {
+      "has_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/decorations/common/gold_platform": {
+    "criteria": {
+      "has_gold": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/redstone/smeltery/scorched/duct": {
+    "criteria": {
+      "has_item": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/redstone/smeltery/seared/duct": {
+    "criteria": {
+      "has_item": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2026-11-08 13:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-11-08 13:45:08 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/cast_collector": {
+    "criteria": {
+      "ingot": "2026-11-08 13:45:45 +0100"
+    },
+    "done": false
+  },
+  "tconstruct:smeltery/gold_casting": {
+    "criteria": {
+      "crafted_cast": "2026-11-08 13:45:45 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/decorations/tables/cast_chest": {
+    "criteria": {
+      "has_item": "2026-11-08 13:45:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-11-08 19:27:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-11-08 19:27:09 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:tools/make_part": {
+    "criteria": {
+      "crafted_part": "2026-11-08 19:27:41 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/sand_casting": {
+    "criteria": {
+      "crafted_cast": "2026-11-08 19:28:33 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:tools/tool_smith": {
+    "criteria": {
+      "pickaxe": "2026-11-08 20:04:28 +0100",
+      "pickadze": "2026-11-08 19:29:12 +0100"
+    },
+    "done": false
+  },
+  "tconstruct:tools/tinker_tool": {
+    "criteria": {
+      "crafted_tool": "2026-11-08 19:29:12 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:tools/material_master": {
+    "criteria": {
+      "iron": "2026-11-08 19:29:12 +0100"
+    },
+    "done": false
+  },
+  "tconstruct:internal/iron_pickaxe": {
+    "criteria": {
+      "iron_pick": "2026-11-08 19:29:12 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/light_detector": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-08 19:32:12 +0100"
+    },
+    "done": true
+  },
+  "ae2:main/root": {
+    "criteria": {
+      "copper": "2026-11-08 19:32:12 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/crank": {
+    "criteria": {
+      "has_copper_ingot": "2026-11-08 19:32:12 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/crystal_processing_charger": {
+    "criteria": {
+      "has_the_recipe": "2026-11-08 19:32:16 +0100"
+    },
+    "done": true
+  },
+  "ae2:main/charger": {
+    "criteria": {
+      "certus": "2026-11-08 19:32:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2026-11-08 19:41:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-11-08 19:41:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-11-08 19:41:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2026-11-08 19:41:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-11-08 19:41:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2026-11-08 19:41:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-11-08 19:41:06 +0100"
+    },
+    "done": true
+  },
+  "ae2:main/compass": {
+    "criteria": {
+      "compass": "2026-11-08 19:47:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2026-11-08 19:52:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2026-11-08 19:52:01 +0100"
     },
     "done": true
   },
