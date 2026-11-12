@@ -123,7 +123,9 @@
       "minecraft:beach": "2026-11-06 17:36:36 +0100",
       "minecraft:dark_forest": "2026-11-10 13:43:12 +0100",
       "minecraft:river": "2026-11-07 17:15:07 +0100",
+      "minecraft:cold_ocean": "2026-11-12 19:05:33 +0100",
       "minecraft:forest": "2026-11-06 18:18:27 +0100",
+      "minecraft:deep_cold_ocean": "2026-11-12 19:05:45 +0100",
       "minecraft:ocean": "2026-11-07 19:15:31 +0100",
       "minecraft:flower_forest": "2026-11-08 19:47:31 +0100",
       "minecraft:old_growth_birch_forest": "2026-11-06 17:37:06 +0100",
@@ -2398,81 +2400,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/tools/certus_quartz_pickaxe": {
-    "criteria": {
-      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/certus_quartz_axe": {
-    "criteria": {
-      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/blasting/silicon_from_certus_quartz_dust": {
-    "criteria": {
-      "has_certus_quartz_dust": "2026-11-10 13:50:25 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/misc/deconstruction_certus_quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2026-11-10 13:50:51 +0100"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/shaped/stairs/sky_stone_block": {
     "criteria": {
       "has_sky_stone_block": "2026-11-10 13:45:59 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/shaped/walls/quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2026-11-10 13:50:51 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/smelting/silicon_from_certus_quartz_dust": {
-    "criteria": {
-      "has_certus_quartz_dust": "2026-11-10 13:50:25 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/decorative/quartz_block": {
-    "criteria": {
-      "has_certus_quartz_crystal": "2026-11-10 14:03:53 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/misc/tiny_tnt": {
-    "criteria": {
-      "has_dusts/quartz": "2026-11-10 13:50:25 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/shaped/slabs/quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2026-11-10 13:50:51 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/certus_quartz_sword": {
-    "criteria": {
-      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/certus_quartz_wrench": {
-    "criteria": {
-      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/block_cutter/slabs/quartz_slab": {
-    "criteria": {
-      "has_quartz_block": "2026-11-10 13:50:51 +0100"
     },
     "done": true
   },
@@ -2482,72 +2412,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/network/parts/quartz_fiber_part": {
-    "criteria": {
-      "has_dusts/quartz": "2026-11-10 13:50:25 +0100"
-    },
-    "done": true
-  },
-  "ae2:main/presses": {
-    "criteria": {
-      "calculation": "2026-11-10 13:51:09 +0100",
-      "silicon": "2026-11-10 13:51:18 +0100",
-      "engineering": "2026-11-10 13:51:13 +0100",
-      "logic": "2026-11-10 13:51:16 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/decorative/quartz_glass": {
-    "criteria": {
-      "has_quartz_dust": "2026-11-10 13:50:25 +0100"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/smelting/smooth_sky_stone_block": {
     "criteria": {
       "has_sky_stone_block": "2026-11-10 13:45:59 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/certus_quartz_cutting_knife": {
-    "criteria": {
-      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/decorative/cut_quartz_block_from_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2026-11-10 13:50:51 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/energy_energy_cell": {
-    "criteria": {
-      "has_crystals/certus": "2026-11-10 14:03:53 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/certus_quartz_spade": {
-    "criteria": {
-      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/decorative/cut_quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2026-11-10 13:50:51 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/block_cutter/stairs/quartz_stairs": {
-    "criteria": {
-      "has_quartz_block": "2026-11-10 13:50:51 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/block_cutter/walls/quartz_wall": {
-    "criteria": {
-      "has_quartz_block": "2026-11-10 13:50:51 +0100"
     },
     "done": true
   },
@@ -2575,9 +2442,87 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/shaped/not_so_mysterious_cube": {
+  "ae2:recipes/misc/misc/chests_sky_stone": {
     "criteria": {
-      "press": "2026-11-10 13:51:09 +0100"
+      "has_sky_stone_block": "2026-11-10 13:45:59 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/blasting/silicon_from_certus_quartz_dust": {
+    "criteria": {
+      "has_certus_quartz_dust": "2026-11-10 13:50:25 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/smelting/silicon_from_certus_quartz_dust": {
+    "criteria": {
+      "has_certus_quartz_dust": "2026-11-10 13:50:25 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/tiny_tnt": {
+    "criteria": {
+      "has_dusts/quartz": "2026-11-10 13:50:25 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/quartz_fiber_part": {
+    "criteria": {
+      "has_dusts/quartz": "2026-11-10 13:50:25 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/quartz_glass": {
+    "criteria": {
+      "has_quartz_dust": "2026-11-10 13:50:25 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/deconstruction_certus_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2026-11-10 13:50:51 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/walls/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2026-11-10 13:50:51 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/slabs/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2026-11-10 13:50:51 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/slabs/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2026-11-10 13:50:51 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/cut_quartz_block_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-11-10 13:50:51 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/cut_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2026-11-10 13:50:51 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/stairs/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2026-11-10 13:50:51 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/walls/quartz_wall": {
+    "criteria": {
+      "has_quartz_block": "2026-11-10 13:50:51 +0100"
     },
     "done": true
   },
@@ -2587,15 +2532,144 @@
     },
     "done": true
   },
+  "ae2:main/presses": {
+    "criteria": {
+      "calculation": "2026-11-10 13:51:09 +0100",
+      "silicon": "2026-11-10 13:51:18 +0100",
+      "engineering": "2026-11-10 13:51:13 +0100",
+      "logic": "2026-11-10 13:51:16 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/not_so_mysterious_cube": {
+    "criteria": {
+      "press": "2026-11-10 13:51:09 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_pickaxe": {
+    "criteria": {
+      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_axe": {
+    "criteria": {
+      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/quartz_block": {
+    "criteria": {
+      "has_certus_quartz_crystal": "2026-11-10 14:03:53 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_sword": {
+    "criteria": {
+      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_wrench": {
+    "criteria": {
+      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_cutting_knife": {
+    "criteria": {
+      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/energy_energy_cell": {
+    "criteria": {
+      "has_crystals/certus": "2026-11-10 14:03:53 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_spade": {
+    "criteria": {
+      "has_certus_quartz": "2026-11-10 14:03:53 +0100"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/tools/certus_quartz_hoe": {
     "criteria": {
       "has_certus_quartz": "2026-11-10 14:03:53 +0100"
     },
     "done": true
   },
-  "ae2:recipes/misc/misc/chests_sky_stone": {
+  "tconstruct:world/earth_island": {
     "criteria": {
-      "has_sky_stone_block": "2026-11-10 13:45:59 +0100"
+      "found_island": "2026-11-12 19:05:55 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/building_blocks/common/slime/earth/congealed": {
+    "criteria": {
+      "has_item": "2026-11-12 19:06:29 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tools/common/slime/lead": {
+    "criteria": {
+      "has_slime_ball": "2026-11-12 19:06:29 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/building_blocks/world/wood/greenheart/log_to_wood": {
+    "criteria": {
+      "has_log": "2026-11-12 19:06:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2026-11-12 19:06:29 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/building_blocks/world/wood/greenheart/planks": {
+    "criteria": {
+      "has_log": "2026-11-12 19:06:22 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:world/slime_collector": {
+    "criteria": {
+      "earth": "2026-11-12 19:06:29 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-11-12 19:06:29 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tools/tools/building/earth_staff": {
+    "criteria": {
+      "has_wood": "2026-11-12 19:06:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2026-11-12 19:06:29 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/redstone/common/slime/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-11-12 19:06:29 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/inscribers": {
+    "criteria": {
+      "has_the_recipe": "2026-11-12 19:09:52 +0100"
     },
     "done": true
   },
