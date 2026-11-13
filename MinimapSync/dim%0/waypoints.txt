@@ -1,5 +1,7 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
 #
+waypoint:Amethyst:A:112:26:36:17:false:0:gui.xaero_default:false:0:0:false
+waypoint:mine:M:175:29:111:12:false:0:gui.xaero_default:false:0:0:false
 waypoint:Slime ball:S:-318:71:-285:17:false:0:gui.xaero_default:false:0:0:false
 waypoint:Base:B:161:112:115:13:false:0:gui.xaero_default:false:0:0:false
