@@ -124,6 +124,7 @@
       "minecraft:beach": "2026-11-06 17:36:36 +0100",
       "minecraft:dark_forest": "2026-11-10 13:43:12 +0100",
       "minecraft:river": "2026-11-07 17:15:07 +0100",
+      "minecraft:dripstone_caves": "2026-11-16 19:23:07 +0100",
       "minecraft:cold_ocean": "2026-11-12 19:05:33 +0100",
       "minecraft:forest": "2026-11-06 18:18:27 +0100",
       "minecraft:deep_cold_ocean": "2026-11-12 19:05:45 +0100",
@@ -454,6 +455,7 @@
       "minecraft:skeleton": "2026-11-07 17:12:51 +0100",
       "minecraft:spider": "2026-11-07 17:20:25 +0100",
       "minecraft:creeper": "2026-11-07 17:22:42 +0100",
+      "minecraft:silverfish": "2026-11-16 19:20:39 +0100",
       "minecraft:zombie": "2026-11-06 18:11:45 +0100"
     },
     "done": false
@@ -2674,39 +2676,15 @@
     },
     "done": true
   },
+  "tconstruct:internal/crafting_station": {
+    "criteria": {
+      "crafting_station": "2026-11-13 15:27:04 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2026-11-13 15:34:52 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/decorative/quartz_fixture": {
-    "criteria": {
-      "has_charged_certus_quartz_crystal": "2026-11-13 15:40:07 +0100"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/iron_ladder": {
-    "criteria": {
-      "has_iron_bars": "2026-11-13 16:10:50 +0100"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/misctools_charged_staff": {
-    "criteria": {
-      "has_charged_certus_quartz_crystal": "2026-11-13 15:40:07 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:tools/modified": {
-    "criteria": {
-      "crafted_tool": "2026-11-13 16:07:43 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/andesite_stairs": {
-    "criteria": {
-      "has_andesite": "2026-11-13 16:04:13 +0100"
     },
     "done": true
   },
@@ -2722,27 +2700,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2026-11-13 16:04:13 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/spyglass": {
-    "criteria": {
-      "has_amethyst_shard": "2026-11-13 16:17:46 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-11-13 15:34:52 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2026-11-13 16:04:13 +0100"
     },
     "done": true
   },
@@ -2764,21 +2724,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/decorative/quartz_fixture_from_anchors": {
-    "criteria": {
-      "has_charged_certus_quartz_crystal": "2026-11-13 15:40:07 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2026-11-13 15:34:52 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2026-11-13 16:04:13 +0100"
     },
     "done": true
   },
@@ -2788,39 +2736,9 @@
     },
     "done": true
   },
-  "ae2:main/charged_quartz": {
-    "criteria": {
-      "certus": "2026-11-13 15:40:07 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-11-13 15:34:52 +0100"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/building_blocks/common/basalt_blast_furnace": {
-    "criteria": {
-      "has_smooth_stone": "2026-11-13 16:17:43 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
-    "criteria": {
-      "has_amethyst_shard": "2026-11-13 16:17:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2026-11-13 16:04:13 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tinted_glass": {
-    "criteria": {
-      "has_amethyst_shard": "2026-11-13 16:17:46 +0100"
     },
     "done": true
   },
@@ -2836,9 +2754,75 @@
     },
     "done": true
   },
-  "tconstruct:internal/crafting_station": {
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
-      "crafting_station": "2026-11-13 15:27:04 +0100"
+      "has_stone": "2026-11-13 15:34:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2026-11-13 15:34:52 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/quartz_fixture": {
+    "criteria": {
+      "has_charged_certus_quartz_crystal": "2026-11-13 15:40:07 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/misctools_charged_staff": {
+    "criteria": {
+      "has_charged_certus_quartz_crystal": "2026-11-13 15:40:07 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/quartz_fixture_from_anchors": {
+    "criteria": {
+      "has_charged_certus_quartz_crystal": "2026-11-13 15:40:07 +0100"
+    },
+    "done": true
+  },
+  "ae2:main/charged_quartz": {
+    "criteria": {
+      "certus": "2026-11-13 15:40:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-11-13 15:41:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2026-11-13 16:04:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-11-13 16:04:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-11-13 16:04:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-11-13 16:04:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-11-13 16:04:13 +0100"
     },
     "done": true
   },
@@ -2851,24 +2835,6 @@
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2026-11-13 16:04:13 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
-    "criteria": {
-      "has_stone": "2026-11-13 15:34:52 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2026-11-13 15:41:22 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/amethyst_block": {
-    "criteria": {
-      "has_amethyst_shard": "2026-11-13 16:17:46 +0100"
     },
     "done": true
   },
@@ -2890,9 +2856,243 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "tconstruct:tools/modified": {
     "criteria": {
-      "has_stone": "2026-11-13 15:34:52 +0100"
+      "crafted_tool": "2026-11-13 16:07:43 +0100"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/iron_ladder": {
+    "criteria": {
+      "has_iron_bars": "2026-11-13 16:10:50 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/building_blocks/common/basalt_blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2026-11-13 16:17:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-11-13 16:17:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2026-11-13 16:17:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2026-11-13 16:17:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2026-11-13 16:17:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/slime/sky/crystal_smelting": {
+    "criteria": {
+      "has_crystal": "2026-11-16 18:58:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-11-16 18:58:14 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/network_tool": {
+    "criteria": {
+      "has_quartz_wrench": "2026-11-16 19:06:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-11-16 18:58:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-11-16 18:58:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2026-11-16 19:36:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-11-16 18:58:14 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/materials/steel_nugget_blasting": {
+    "criteria": {
+      "has_item": "2026-11-16 18:58:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-11-16 18:58:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/materials/steel_nugget_smelting": {
+    "criteria": {
+      "has_item": "2026-11-16 18:58:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-11-16 19:27:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-11-16 18:58:14 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/building_blocks/common/slime/sky/crystal_block": {
+    "criteria": {
+      "has_item": "2026-11-16 18:58:33 +0100"
     },
     "done": true
   },
