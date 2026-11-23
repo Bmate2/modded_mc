@@ -10,5 +10,6 @@ sortReversed:false
 ignoreHeightmaps:false
 
 //dimension types (DO NOT EDIT)
+dimensionType:twilightforest$twilight_forest:twilightforest$twilight_forest_type
 dimensionType:minecraft$overworld:minecraft$overworld
 //third-party waypoints

@@ -1,6 +1,7 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
 #
+waypoint:big mine:B:51:-32:316:8:false:0:gui.xaero_default:false:0:0:false
 waypoint:mineshaft:M:119:30:304:15:false:0:gui.xaero_default:false:0:0:false
 waypoint:temp:T:124:28:203:8:false:0:gui.xaero_default:false:0:0:false
 waypoint:Skyslime shard:S:139:30:132:15:false:0:gui.xaero_default:false:0:0:false
