@@ -456,10 +456,14 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2026-11-24 19:46:31 +0100",
       "minecraft:skeleton": "2026-11-07 17:12:51 +0100",
+      "minecraft:magma_cube": "2026-11-24 19:18:18 +0100",
       "minecraft:spider": "2026-11-07 17:20:25 +0100",
       "minecraft:creeper": "2026-11-07 17:22:42 +0100",
+      "minecraft:zombified_piglin": "2026-11-24 19:20:48 +0100",
       "minecraft:witch": "2026-11-23 18:57:24 +0100",
+      "minecraft:wither_skeleton": "2026-11-24 19:10:21 +0100",
       "minecraft:cave_spider": "2026-11-18 15:58:59 +0100",
       "minecraft:silverfish": "2026-11-16 19:20:39 +0100",
       "minecraft:zombie": "2026-11-06 18:11:45 +0100"
@@ -1994,6 +1998,7 @@
   "tconstruct:tools/material_master": {
     "criteria": {
       "amethyst_bronze": "2026-11-23 18:36:17 +0100",
+      "string": "2026-11-24 19:23:25 +0100",
       "iron": "2026-11-08 19:29:12 +0100"
     },
     "done": false
@@ -4220,6 +4225,126 @@
       "has_wct": "2026-11-24 18:18:41 +0100"
     },
     "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-11-24 19:47:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2026-11-24 19:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2026-11-24 19:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2026-11-24 19:49:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-11-24 19:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2026-11-24 19:49:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2026-11-24 19:08:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2026-11-24 19:49:26 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/abilities": {
+    "criteria": {
+      "crystalshot": "2026-11-24 19:28:17 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2026-11-24 19:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2026-11-24 19:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-11-24 19:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-11-24 19:49:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-11-24 19:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2026-11-24 19:47:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-11-24 19:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2026-11-24 19:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-11-24 19:17:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2026-11-24 19:47:41 +0100"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/tool_forge": {
+    "criteria": {
+      "longbow": "2026-11-24 19:23:25 +0100"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
